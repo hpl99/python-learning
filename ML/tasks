@@ -1,0 +1,740 @@
+# Deep Machine Learning Roadmap (Official Docs + Theory First)
+
+This roadmap is designed for:
+
+* deep understanding
+* strong mathematical intuition
+* implementation ability
+* research-level foundations later
+* ML engineering + AI systems
+* not tutorial-copy learning
+
+The goal is:
+
+Learn ML the same way strong engineers and researchers do:
+
+* math
+* fundamentals
+* implementations
+* papers
+* experimentation
+* official docs
+* projects
+
+---
+
+# PHASE 0 — PREPARATION
+
+Before serious ML:
+
+You MUST build:
+
+1. Python proficiency
+2. Mathematics
+3. Data handling
+4. Programming fundamentals
+
+---
+
+# 1. PYTHON FOR ML
+
+# Official Docs
+
+Python Docs:
+[https://docs.python.org/3/](https://docs.python.org/3/)
+
+Python Tutorial:
+[https://docs.python.org/3/tutorial/](https://docs.python.org/3/tutorial/)
+
+---
+
+# Learn Properly
+
+Topics:
+
+* variables
+* functions
+* loops
+* comprehensions
+* OOP
+* iterators
+* generators
+* decorators
+* modules
+* virtual environments
+* file handling
+* exception handling
+
+---
+
+# MOST IMPORTANT
+
+## Learn NumPy Deeply
+
+NumPy Docs:
+[https://numpy.org/doc/stable/](https://numpy.org/doc/stable/)
+
+Quickstart:
+[https://numpy.org/doc/stable/user/quickstart.html](https://numpy.org/doc/stable/user/quickstart.html)
+
+Topics:
+
+* arrays
+* broadcasting
+* vectorization
+* slicing
+* reshaping
+* linear algebra ops
+
+VERY IMPORTANT.
+
+ML heavily depends on vectorized thinking.
+
+---
+
+# Learn Pandas
+
+Pandas Docs:
+[https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
+
+10 Minutes to Pandas:
+[https://pandas.pydata.org/docs/user_guide/10min.html](https://pandas.pydata.org/docs/user_guide/10min.html)
+
+Topics:
+
+* DataFrames
+* indexing
+* grouping
+* joins
+* missing values
+* preprocessing
+
+---
+
+# Learn Matplotlib
+
+Matplotlib Docs:
+[https://matplotlib.org/stable/users/index.html](https://matplotlib.org/stable/users/index.html)
+
+Pyplot Tutorial:
+[https://matplotlib.org/stable/tutorials/pyplot.html](https://matplotlib.org/stable/tutorials/pyplot.html)
+
+Topics:
+
+* plotting
+* histograms
+* scatter plots
+* line plots
+* visualization
+
+---
+
+# PHASE 1 — MATHEMATICS FOR ML
+
+DO NOT SKIP THIS.
+
+This separates shallow ML learners from strong ones.
+
+---
+
+# 1. Linear Algebra
+
+# BEST RESOURCE
+
+MIT Linear Algebra:
+[https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
+
+3Blue1Brown Essence of Linear Algebra:
+[https://www.3blue1brown.com/topics/linear-algebra](https://www.3blue1brown.com/topics/linear-algebra)
+
+---
+
+# Learn
+
+* vectors
+* matrices
+* matrix multiplication
+* determinants
+* rank
+* eigenvalues
+* eigenvectors
+* orthogonality
+* projections
+* SVD basics
+
+---
+
+# 2. Calculus
+
+MIT Calculus:
+[https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/)
+
+Khan Academy Calculus:
+[https://www.khanacademy.org/math/calculus-1](https://www.khanacademy.org/math/calculus-1)
+
+---
+
+# Learn
+
+* derivatives
+* partial derivatives
+* chain rule
+* gradients
+* optimization
+* multivariable calculus
+
+MOST IMPORTANT:
+
+Understand gradients intuitively.
+
+---
+
+# 3. Probability + Statistics
+
+Khan Academy Probability:
+[https://www.khanacademy.org/math/statistics-probability](https://www.khanacademy.org/math/statistics-probability)
+
+StatQuest:
+[https://www.youtube.com/@statquest](https://www.youtube.com/@statquest)
+
+---
+
+# Learn
+
+* probability
+* conditional probability
+* Bayes theorem
+* distributions
+* expectation
+* variance
+* covariance
+* correlation
+* hypothesis testing
+
+VERY IMPORTANT.
+
+---
+
+# PHASE 2 — MACHINE LEARNING FUNDAMENTALS
+
+Now start actual ML.
+
+---
+
+# 1. Scikit-Learn (VERY IMPORTANT)
+
+Scikit-Learn Docs:
+[https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)
+
+User Guide:
+[https://scikit-learn.org/stable/user_guide.html](https://scikit-learn.org/stable/user_guide.html)
+
+---
+
+# Learn in THIS ORDER
+
+## Step 1 — Data Preprocessing
+
+Topics:
+
+* train/test split
+* scaling
+* normalization
+* encoding
+* pipelines
+
+Docs:
+[https://scikit-learn.org/stable/modules/preprocessing.html](https://scikit-learn.org/stable/modules/preprocessing.html)
+
+---
+
+# 2. Supervised Learning
+
+## Linear Regression
+
+Docs:
+[https://scikit-learn.org/stable/modules/linear_model.html](https://scikit-learn.org/stable/modules/linear_model.html)
+
+Learn:
+
+* cost function
+* gradient descent
+* MSE
+* overfitting
+* underfitting
+
+---
+
+## Logistic Regression
+
+Learn:
+
+* sigmoid
+* classification
+* decision boundary
+* cross entropy
+
+---
+
+## Decision Trees
+
+Docs:
+[https://scikit-learn.org/stable/modules/tree.html](https://scikit-learn.org/stable/modules/tree.html)
+
+Learn:
+
+* entropy
+* information gain
+* gini impurity
+
+---
+
+## Random Forests
+
+Docs:
+[https://scikit-learn.org/stable/modules/ensemble.html](https://scikit-learn.org/stable/modules/ensemble.html)
+
+Learn:
+
+* bagging
+* ensemble learning
+* variance reduction
+
+---
+
+## SVM
+
+Docs:
+[https://scikit-learn.org/stable/modules/svm.html](https://scikit-learn.org/stable/modules/svm.html)
+
+Learn:
+
+* hyperplanes
+* kernels
+* margins
+
+---
+
+# 3. Unsupervised Learning
+
+## K-Means
+
+Docs:
+[https://scikit-learn.org/stable/modules/clustering.html](https://scikit-learn.org/stable/modules/clustering.html)
+
+Learn:
+
+* clustering
+* centroids
+* inertia
+
+---
+
+## PCA
+
+Docs:
+[https://scikit-learn.org/stable/modules/decomposition.html](https://scikit-learn.org/stable/modules/decomposition.html)
+
+Learn:
+
+* dimensionality reduction
+* variance
+* projections
+
+---
+
+# 4. Model Evaluation
+
+VERY IMPORTANT.
+
+Metrics Docs:
+[https://scikit-learn.org/stable/modules/model_evaluation.html](https://scikit-learn.org/stable/modules/model_evaluation.html)
+
+Learn:
+
+* accuracy
+* precision
+* recall
+* F1 score
+* ROC-AUC
+* confusion matrix
+* cross validation
+
+---
+
+# PHASE 3 — DEEP LEARNING
+
+Now start neural networks.
+
+---
+
+# 1. PyTorch (RECOMMENDED)
+
+PyTorch Docs:
+[https://pytorch.org/docs/stable/index.html](https://pytorch.org/docs/stable/index.html)
+
+PyTorch Tutorials:
+[https://pytorch.org/tutorials/](https://pytorch.org/tutorials/)
+
+---
+
+# Learn
+
+* tensors
+* autograd
+* neural networks
+* datasets
+* dataloaders
+* training loops
+* GPU training
+
+---
+
+# 2. Neural Network Fundamentals
+
+Deep Learning Book:
+[https://www.deeplearningbook.org/](https://www.deeplearningbook.org/)
+
+---
+
+# Learn
+
+* perceptrons
+* activation functions
+* forward propagation
+* backpropagation
+* gradient descent
+* optimizers
+
+---
+
+# 3. CNNs
+
+Learn:
+
+* convolution
+* pooling
+* feature maps
+* image classification
+
+PyTorch CNN Tutorial:
+[https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+
+---
+
+# 4. RNNs + LSTMs
+
+Learn:
+
+* sequence modeling
+* hidden states
+* vanishing gradients
+
+---
+
+# 5. Transformers (VERY IMPORTANT)
+
+Attention Is All You Need Paper:
+[https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)
+
+HuggingFace Course:
+[https://huggingface.co/learn/nlp-course/chapter1/1](https://huggingface.co/learn/nlp-course/chapter1/1)
+
+Learn:
+
+* attention
+* self-attention
+* embeddings
+* tokenization
+* transformers
+* LLM basics
+
+---
+
+# PHASE 4 — MATH + THEORY DEEPENING
+
+After practical ML.
+
+---
+
+# Learn Optimization
+
+Convex Optimization Book:
+[https://web.stanford.edu/~boyd/cvxbook/](https://web.stanford.edu/~boyd/cvxbook/)
+
+Topics:
+
+* convexity
+* gradient descent
+* SGD
+* Adam
+* momentum
+
+---
+
+# Information Theory
+
+Learn:
+
+* entropy
+* KL divergence
+* cross entropy
+
+---
+
+# PHASE 5 — MLOPS + DEPLOYMENT
+
+VERY IMPORTANT for industry.
+
+---
+
+# FastAPI
+
+Docs:
+[https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/)
+
+Learn:
+
+* REST APIs
+* serving models
+* async APIs
+
+---
+
+# Docker
+
+Docs:
+[https://docs.docker.com/](https://docs.docker.com/)
+
+---
+
+# MLflow
+
+Docs:
+[https://mlflow.org/docs/latest/index.html](https://mlflow.org/docs/latest/index.html)
+
+---
+
+# Kubernetes Basics
+
+Docs:
+[https://kubernetes.io/docs/home/](https://kubernetes.io/docs/home/)
+
+---
+
+# PHASE 6 — SPECIALIZATION
+
+Choose after fundamentals.
+
+---
+
+# Computer Vision
+
+OpenCV Docs:
+[https://docs.opencv.org/](https://docs.opencv.org/)
+
+TorchVision:
+[https://pytorch.org/vision/stable/index.html](https://pytorch.org/vision/stable/index.html)
+
+---
+
+# NLP
+
+HuggingFace Docs:
+[https://huggingface.co/docs](https://huggingface.co/docs)
+
+spaCy Docs:
+[https://spacy.io/usage](https://spacy.io/usage)
+
+---
+
+# Reinforcement Learning
+
+OpenAI Spinning Up:
+[https://spinningup.openai.com/en/latest/](https://spinningup.openai.com/en/latest/)
+
+---
+
+# Graph ML
+
+PyTorch Geometric:
+[https://pytorch-geometric.readthedocs.io/en/latest/](https://pytorch-geometric.readthedocs.io/en/latest/)
+
+---
+
+# PHASE 7 — RESEARCH + PAPERS
+
+Now start reading papers.
+
+---
+
+# arXiv
+
+[https://arxiv.org/](https://arxiv.org/)
+
+---
+
+# Papers With Code
+
+[https://paperswithcode.com/](https://paperswithcode.com/)
+
+---
+
+# Learn How to Read Papers
+
+Focus on:
+
+* problem statement
+* intuition
+* architecture
+* loss functions
+* experiments
+* limitations
+
+---
+
+# BEST COURSES
+
+# Andrew Ng ML
+
+[https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)
+
+---
+
+# Stanford CS229
+
+[https://cs229.stanford.edu/](https://cs229.stanford.edu/)
+
+---
+
+# Stanford CS231n (Computer Vision)
+
+[https://cs231n.stanford.edu/](https://cs231n.stanford.edu/)
+
+---
+
+# Stanford CS224n (NLP)
+
+[https://web.stanford.edu/class/cs224n/](https://web.stanford.edu/class/cs224n/)
+
+---
+
+# Berkeley Deep Learning
+
+[https://fullstackdeeplearning.com/](https://fullstackdeeplearning.com/)
+
+---
+
+# BEST BOOKS
+
+# Mathematics
+
+* Linear Algebra Done Right
+* Introduction to Statistical Learning
+* Pattern Recognition and Machine Learning
+
+---
+
+# Deep Learning
+
+* Deep Learning — Goodfellow
+* Hands-On Machine Learning
+
+---
+
+# Systems + Scaling
+
+* Designing Machine Learning Systems
+
+---
+
+# BEST PRACTICE PROJECTS
+
+# Beginner
+
+* house price prediction
+* spam classifier
+* Titanic dataset
+
+---
+
+# Intermediate
+
+* sentiment analyzer
+* image classifier
+* recommendation system
+
+---
+
+# Advanced
+
+* transformer from scratch
+* mini ChatGPT
+* distributed training
+* RAG system
+* vector database search engine
+
+---
+
+# MOST IMPORTANT ADVICE
+
+For EVERY ML topic:
+
+1. Learn the math
+2. Implement from scratch
+3. Use library implementation
+4. Visualize results
+5. Read research intuition
+6. Build projects
+
+---
+
+# DO NOT BECOME A FRAMEWORK-ONLY LEARNER
+
+Understand:
+
+* WHY algorithms work
+* mathematical intuition
+* optimization
+* tradeoffs
+* memory/computation complexity
+
+That creates real ML engineers and researchers.
+
+---
+
+# IDEAL LEARNING ORDER
+
+1. Python
+2. NumPy
+3. Pandas
+4. Linear Algebra
+5. Calculus
+6. Probability
+7. Scikit-Learn
+8. ML Algorithms
+9. Model Evaluation
+10. PyTorch
+11. Deep Learning
+12. CNNs
+13. Transformers
+14. Deployment
+15. Papers
+16. Research-level topics
+
+---
+
+# FINAL IMPORTANT NOTE
+
+You are learning the RIGHT way:
+
+* docs
+* math
+* source understanding
+* projects
+* experimentation
+* papers
+
+This path is slower initially.
+
+But after 1–2 years your understanding becomes dramatically deeper than tutorial-only learners.
